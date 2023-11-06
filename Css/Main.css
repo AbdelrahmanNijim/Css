@@ -1,0 +1,183 @@
+
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+
+
+}
+
+
+
+a{
+ 
+ text-decoration: none;
+
+}
+
+/*Nav*/
+ 
+
+ .Navbar{
+
+ 
+ background-color: rgb(0, 0, 0);
+ position: sticky;
+ top: 0;
+
+ }
+
+ .Logo{
+
+    display: inline-flex ;
+    
+   
+ 
+ }
+
+ .Logo img{
+
+  width: 50%;
+  margin-top: 5px;
+  
+
+
+ }
+ 
+
+ .Navbar .Ulist{
+ 
+ display: flex;
+ 
+  
+ margin-top: 5px;
+
+  
+ 
+ 
+}
+
+
+
+.Ulist ul {
+ 
+ list-style: none;
+ margin : 2px;
+display: inline-flex;
+
+
+
+
+
+}
+
+.Ulist li{
+ 
+
+  
+  
+ margin-right: 15px;
+
+}
+
+.Ulist a {
+ 
+  color: rgb(242, 226, 197);
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif ;
+ 
+
+
+}
+.Navcontainer{
+  
+ display: flex;
+justify-content: space-around;
+ 
+
+}
+
+.Portcontainer{
+  
+    width: 80%;
+    margin: auto;
+
+}
+
+.Port{
+
+  
+   
+    background-color: rgba(100, 104, 98, 0.127);
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif ;
+    text-align: center;
+   
+   
+    
+   
+   
+   
+   }
+   
+   .Port .container h2{
+    
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+   text-transform:capitalize;
+   color: rgb(22, 22, 22);
+   letter-spacing:2px;
+   font-size: 30px;
+   
+   }
+   .Port .container p{
+  
+   text-transform: capitalize;
+   color: rgb(68, 67, 67);
+    font-family: fantasy;
+    letter-spacing:2px;
+    font-size:15px;
+   
+   
+     
+     }
+   
+   
+    
+   .Port-item{
+       
+
+      
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ align-content: space-evenly;
+   
+
+
+
+
+
+   }
+ 
+   
+   
+   .Port-item1{
+     
+      width:  33.33%;
+     
+      padding-right: 10px;
+      padding-top: 10px;
+   
+   }
+   
+   
+   .Port-item img{
+   
+     display: block;
+
+     
+       width: 100%;
+   }
+   
+
